@@ -6,3 +6,5 @@ github bertan egindako aldaketa
 
 
 gui probatzeko
+
+enautirakasle githubeko forkean doa hau ikaslea2 windowseko erabiltzailetik ez dakit ze githubeko erabiltzailerekin
