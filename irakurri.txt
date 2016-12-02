@@ -6,3 +6,5 @@ github bertan egindako aldaketa
 
 
 gui probatzeko
+
+ikaslea1 naiz
