@@ -1,8 +1,13 @@
 <?php
 include_once 'Alumno.php';
+
+//recivir datos del cliente
 $nuevo_alumno = json_decode($_POST['alumno']);
+
+//creo el objeto alumno
 $alumno = new Alumno();
-echo $alumno->alta($nuevo_alumno->nombre, $nuevo_alumno->apellido1, $nuevo_alumno->apellido2);
-//echo ($nuevo_alumno->id . ' ' . $nuevo_alumno->nombre .' '. $nuevo_alumno->apellido1 . ' ' . $nuevo_alumno->apellido2 );
-//print_r($nuevo_alumno);
-echo "alumno agregado";
+
+//inserto en la BBDD
+$alumno->alta($nuevo_alumno->nombre, $nuevo_alumno->apellido1, $nuevo_alumno->apellido2);
+
+echo $nuevo_alumno->nombre . " agregado";

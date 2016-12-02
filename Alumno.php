@@ -77,7 +77,6 @@ class Alumno {
     
     public function eliminar_todos() {
         try {
-
                 $sql = "DELETE FROM ikasleak";
                 $res = $this->mysqli->query($sql);
           

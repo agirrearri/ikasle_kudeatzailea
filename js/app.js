@@ -5,13 +5,12 @@ miAplicacion.controller('mainController', function ($scope, $http) {
 
     //para rellenar la tabla de alumnos
     $http.get('getAlumnos.php').success(function (data) {
-        //enviamos los datos a la vista con el objeto $scope
-
-//        if (typeof data == "string")
-//        {
-//            data2 = JSON.parse(data);
-//        }
-        $scope.lista = data;
+        if (data === "nok") {
+            alert("fuera de aqui");
+           // window.location.href ="http://www.google.com";
+        } else {
+            $scope.lista = data;
+        }
     });
 
 
@@ -121,9 +120,9 @@ miAplicacion.controller('mainController', function ($scope, $http) {
                 $scope.lista.push(item);
                 alert(item.nombre);
             }
-            
+
         });
-        
+
 
         longitud = Object.keys($scope.lista).length;
         longitud = longitud - 1;
