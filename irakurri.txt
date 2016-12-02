@@ -8,3 +8,4 @@ github bertan egindako aldaketa
 gui probatzeko
 
 ikaslea1 naiz
+ez dakit nor naizen, windows erabiltzailea ikaslea
