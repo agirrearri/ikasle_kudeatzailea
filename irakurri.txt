@@ -3,3 +3,6 @@ htdocs localean daukadan alumnos_v3 ren copia da lehen vertsioa
 aldaketa
 
 github bertan egindako aldaketa
+
+
+gui probatzeko
