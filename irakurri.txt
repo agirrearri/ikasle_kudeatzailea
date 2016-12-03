@@ -14,3 +14,6 @@ enautirakasle githubeko forkean doa hau ikaslea2 windowseko erabiltzailetik ez d
 
 hasi probekin
 
+tagak probak
+
+
