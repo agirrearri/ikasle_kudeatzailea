@@ -9,3 +9,6 @@ gui probatzeko
 
 ikaslea1 naiz
 ez dakit nor naizen, windows erabiltzailea ikaslea
+
+enautirakasle githubeko forkean doa hau ikaslea2 windowseko erabiltzailetik ez dakit ze githubeko erabiltzailerekin
+
