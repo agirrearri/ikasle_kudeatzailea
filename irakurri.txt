@@ -12,3 +12,5 @@ ez dakit nor naizen, windows erabiltzailea ikaslea
 
 enautirakasle githubeko forkean doa hau ikaslea2 windowseko erabiltzailetik ez dakit ze githubeko erabiltzailerekin
 
+hasi probekin
+
