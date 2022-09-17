@@ -1,4 +1,5 @@
 <?php
+//API que devuelve ciclos en formato json
 $ip='localhost';
 $usuario='root';
 $password='';
